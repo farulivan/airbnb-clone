@@ -2,10 +2,14 @@ import React from "react";
 
 export default function Header() {
     return (
-        <section className="header">
-            <img src="/img/hero-img.png" alt="some images" />
-            <h1>Online Experiences</h1>
-            <p>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
-        </section>
+        <header>
+            <div className="header--text">
+                <h1>Unforgettable activities hosted by locals</h1>
+                <p>Every day, Hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way</p>
+            </div>
+            <div className="header--imgContainer">
+                <img className="header--img" src="/img/bali.jpg" alt="some images" />
+            </div>
+        </header>
     )
 }
